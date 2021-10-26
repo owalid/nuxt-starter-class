@@ -1,7 +1,10 @@
 <template>
-  <p>Hello world</p>
+  <say-hello />
 </template>
 
 <script>
-export default {}
+import SayHello from '~/components/SayHello'
+export default {
+  components: { SayHello }
+}
 </script>
